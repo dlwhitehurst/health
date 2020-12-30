@@ -1,0 +1,27 @@
+{
+  "name": "health",
+  "version": "1.0.0",
+  "description": "scalable health check express app for monitoring and microk8s",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "eslint --ignore-path .gitignore .",
+    "test": "tap test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dlwhitehurst/health.git"
+  },
+  "author": "David L. Whitehurst <dlwhitehurst@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.1"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "devDependencies": {
+    "eslint": "^4.4.1",
+    "request": "^2.53.0",
+    "tap": "^0.7.1"
+  }
+}
