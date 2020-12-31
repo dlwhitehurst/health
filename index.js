@@ -13,7 +13,7 @@ module.exports = function() {
     res.send(msg);
   });
 
-  app.get('/api', function(req, res) {
+  app.get('/health', function(req, res) {
     res.json({
       message: 'Looks like the application is up!',
       pid: process.pid,
